@@ -1,0 +1,49 @@
+{
+  "Body": {
+    "transactionId": "ABC52434",
+    "operation": "VERITRANSCCS",
+    "entity": "VERITRANS",
+    "status": "0",
+    "exception": {
+      "message": "Deny by Bank (MANDIRI) with code [05]",
+      "backEndError": "Deny by Bank (MANDIRI) with code [05]",
+      "code": "202"
+    },
+    "service": "submitPayment",
+    "IcAx_AXAAsiaCustomer_Type": {
+      "canBeIndividual": {
+        "hasAddressesIn": [
+          {
+            "telephoneNO": "021741000010",
+            "emailAddress": "arba@ciptadrasoft.com",
+            "mobilePhoneNO": "0852121212",
+            "cityNM": "Jakartay Pusat",
+            "addressLine1": "Thamrin"
+          }
+        ],
+        "firstNM": "Test123",
+        "lastNM": "OK ok"
+      },
+      "hasPolicyAccount": [
+        {
+          "hasCustomerInformationIn": [
+            {
+              "canBeIndividual": {
+                "hasAddressesIn": [
+                  {
+                    "telephoneNO": "021741000010",
+                    "cityNM": "Jakartay Pusat",
+                    "addressLine1": "Thamrin"
+                  }
+                ],
+                "firstNM": "Alice",
+                "lastNM": "in chain"
+              }
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}
